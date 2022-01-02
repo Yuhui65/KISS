@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h1, h2, label{
+    font-weight: 500;
+}
+    
+    
+p{
+    text-align: center;
+} 
+    
+#copryright_icon{
+    color: red;
+    font-size: 14px;
+    margin-top: 7px;    
+}
+    
+a{
+    color: black;
+}
+    
+a:hover{
+    color:red;
+}
+    
+hr{
+    width: 100%;
+}

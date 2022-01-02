@@ -1,0 +1,92 @@
+#container{
+    width: 80%; 
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    margin: auto;
+}
+
+img{
+    width: 70px;
+    height: 40px;
+}
+
+#header{
+    display: flex;
+}
+
+.top-navigation{
+    display: flex;
+    flex: auto;
+    margin-left: 0px;
+    
+}
+
+.top-navigation ul, .login ul{
+    padding-left: 10px;
+}
+
+#header nav li {
+    list-style-type: none;
+    display: inline;
+    
+}
+
+form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+#email, #password{
+    display: flex;
+    flex-direction: column;
+}
+
+#password{
+    margin-top: 10px;
+
+}
+
+.sign-in , .sign-up {  
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.sign-in {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#footer, .footer{
+    display: flex;
+}  
+    
+.footer-navigation1{
+    padding-left: 0;
+}
+
+#footer nav li{ 
+    list-style-type: none;
+    padding: 5px;
+    /* margin-left: 0; */
+    /* display: flex; */
+    /* align-items: flex-start; */  
+} 
+
+ @media (max-width:500px){
+    body {
+        min-width: 320px;
+        font-size: 8px;
+    }
+
+    form{
+        width: 85%;
+    }
+} 
